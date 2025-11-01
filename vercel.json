@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_FIREBASE_API_KEY": "AIzaSyBOfpYQbQh9-e9cyaPpRpZWymHPqI6DDdc",
+    "VITE_FIREBASE_AUTH_DOMAIN": "p2p-ops-dashboard.firebaseapp.com",
+    "VITE_FIREBASE_PROJECT_ID": "p2p-ops-dashboard",
+    "VITE_FIREBASE_STORAGE_BUCKET": "p2p-ops-dashboard.firebasestorage.app",
+    "VITE_FIREBASE_MESSAGING_SENDER_ID": "194933440559",
+    "VITE_FIREBASE_APP_ID": "1:194933440559:web:bff48d53b6462f023cc6da"
+  }
+}
